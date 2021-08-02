@@ -4,7 +4,7 @@ import { Container, IFrame, Title } from './styles';
 
 const Home = (): React.ReactElement => {
     const typedContent = [
-        '<strong>Loading ^200.^200.^200.</strong> ^1000\nWeb Applications ^1000\nGames ^1000 \n3D Graphics ^1000\nMobile Applications'
+        '<strong>Web/Mobile Applications ^1000\nGames ^1000 \n3D Graphics ^1000\nIOT'
       ];
 
     return (

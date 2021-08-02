@@ -13,9 +13,14 @@ export const IFrame = styled.iframe`
 
 export const Title = styled.div`
     color: #FFFFFF;
-    width: 400px;
+    width: 200px;
+    height: 130px;
     position: absolute;
     bottom: 80px;
     left: 80px;
     z-index: 99;
+
+    h1 {
+        margin-top: 0px;
+    }
 `;
