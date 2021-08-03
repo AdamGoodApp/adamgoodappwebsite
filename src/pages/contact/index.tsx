@@ -1,8 +1,13 @@
 import React from 'react';
 import { Container } from './styles';
 
-const Contact = (): React.ReactElement => {
-    return <Container>Contact</Container>;
+interface Props {
+    refProp: any;
+};
+
+const Contact = (props: Props): React.ReactElement => {
+    const { refProp } = props;
+    return <Container ref={refProp}>Contact</Container>;
 };
 
 export default Contact;

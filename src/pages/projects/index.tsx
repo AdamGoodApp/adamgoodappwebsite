@@ -1,8 +1,13 @@
 import React from 'react';
 import { Container } from './styles';
 
-const Projects = (): React.ReactElement => {
-    return <Container>Projects</Container>;
+interface Props {
+    refProp: any;
+};
+
+const Projects = (props: Props): React.ReactElement => {
+    const { refProp } = props;
+    return <Container ref={refProp}>Projects</Container>;
 };
 
 export default Projects;

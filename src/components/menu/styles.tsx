@@ -5,7 +5,7 @@ export const Ul = styled.ul`
     align-items: center;
     justify-content: space-around;
     padding: 0px;
-    position: absolute;
+    position: fixed;
     right: 80px;
     height: 80px;
     list-style-type: none;
