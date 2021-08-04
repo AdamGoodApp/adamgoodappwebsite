@@ -25,9 +25,9 @@ export const ItemTop = styled.div `
     padding-top: 65px;
     height: 33%;
     text-align: center;
-    width: 283px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 
     h2 {
         font-size: 40px;
@@ -42,4 +42,14 @@ export const ItemTop = styled.div `
         letter-spacing: .011em;
         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     }
+`;
+
+export const ItemBottom = styled.div `
+    height: 54%;
+`;
+
+export const Video = styled.video`
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 `;
