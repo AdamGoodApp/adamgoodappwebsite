@@ -15,7 +15,7 @@ const Home = (props: Props): React.ReactElement => {
 
     return (
         <Container ref={refProp}>
-            <IFrame src='https://relaxed-mcclintock-ed1158.netlify.app/' frameBorder='0' />
+            <IFrame src='https://relaxed-mcclintock-ed1158.netlify.app/' frameBorder='0' allow="xr-spatial-tracking" />
             <Title>
                 <h1>Adam Rais</h1>
                 <Typed content={typedContent} />

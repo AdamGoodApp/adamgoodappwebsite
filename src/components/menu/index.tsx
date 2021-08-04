@@ -11,6 +11,7 @@ interface Props {
 const Menu = (props: Props): React.ReactElement => {
     const { homeRef, projectsRef, contactRef } = props;
     const [prevTarget, setTarget] = useState<any>();
+    const scrollOptions = { align: "top", offset: -44 };
 
     const onClick = ({target}: any): void => {        
         prevTarget && prevTarget.classList.remove("active");
@@ -19,13 +20,13 @@ const Menu = (props: Props): React.ReactElement => {
 
         switch (target.dataset.label) {
             case 'home':
-                scrollToComponent(homeRef.current);
+                scrollToComponent(homeRef.current, scrollOptions);
                 break;
             case 'projects':
-                scrollToComponent(projectsRef.current);
+                scrollToComponent(projectsRef.current, scrollOptions);
                 break;
             case 'contact':
-                scrollToComponent(contactRef.current);
+                scrollToComponent(contactRef.current, scrollOptions);
                 break;
         };
     };
