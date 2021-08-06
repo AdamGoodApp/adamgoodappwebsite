@@ -15,8 +15,6 @@ export const Container = styled.div`
 
 export const Project = styled.div`
     background-color: grey;
-    border-radius: 5px;
-    cursor: pointer;
     height: 620px;
     width: 49.6%;
 `;
@@ -34,18 +32,37 @@ export const ItemTop = styled.div `
         margin: 0px;
     }
 
-    p {
+    p:first {
         margin-top: 15px;
+    }
+
+    p {
         font-size: 21px;
         line-height: 1.381;
         font-weight: 400;
         letter-spacing: .011em;
         font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+        margin: 8px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a img {
+        margin-top: 10px;
+        width: 22px;
     }
 `;
 
 export const ItemBottom = styled.div `
     height: 54%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 100%;
+    
 `;
 
 export const Video = styled.video`
