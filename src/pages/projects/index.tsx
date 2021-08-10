@@ -20,7 +20,7 @@ const Projects = (props: Props): React.ReactElement => {
                     <h2>Game Of Adam</h2>
                     <p>A Rust and WebAssembly <br/> implementation of Game of life.</p>
                     <p style={{fontSize: 16, color:"rgb(64,200,224)"}}>#rust #webassembly #javascript</p>
-                    <a href='https://github.com/AdamGoodApp/wasm-game-of-adam' target="_blank"><img src={githubLight} alt='logo'/></a>
+                    <a href='https://github.com/AdamGoodApp/wasm-game-of-adam' target="_blank" rel="noreferrer"><img src={githubLight} alt='logo'/></a>
                 </ItemTop>
                 <ItemBottom>
                 <Video playsInline autoPlay muted loop>
@@ -33,7 +33,7 @@ const Projects = (props: Props): React.ReactElement => {
                     <h2>Adz OS</h2>
                     <p>Operating system written in Rust</p>
                     <p style={{fontSize: 16, color:"rgb(64,200,224)"}}>#rust</p>
-                    <a href='https://github.com/AdamGoodApp/adzOS' target="_blank"><img src={githubDark} alt='logo'/></a>
+                    <a href='https://github.com/AdamGoodApp/adzOS' target="_blank" rel="noreferrer"><img src={githubDark} alt='logo'/></a>
                 </ItemTop>
                 <ItemBottom>
                     <img src={adzOS} alt='adzOS logo' />
@@ -44,7 +44,7 @@ const Projects = (props: Props): React.ReactElement => {
                     <h2>Flood Simulation</h2>
                     <p>Simulation of world wide flooding <br/>based on rising sea levels.</p>
                     <p style={{fontSize: 16, color:"rgb(64,200,224)"}}>#python #mapbox #DigitalElevationModel</p>
-                    <a href='https://github.com/AdamGoodApp/Flood-sim' target="_blank"><img src={githubLight} alt='logo'/></a>
+                    <a href='https://github.com/AdamGoodApp/Flood-sim' target="_blank" rel="noreferrer"><img src={githubLight} alt='logo'/></a>
                 </ItemTop>
                 <ItemBottom>
                     <Video playsInline autoPlay muted loop>
@@ -57,7 +57,7 @@ const Projects = (props: Props): React.ReactElement => {
                     <h2>Yomi</h2>
                     <p>Manga reader app</p>
                     <p style={{fontSize: 16, color:"rgb(64,200,224)"}}>#javascript #typescript #ios #android</p>
-                    <a href='https://yomireader.netlify.app' target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPAU25wof8Zbvp4FnwH0VrlGFP1lSki1vJ-Q&usqp=CAU" alt='logo'/></a>
+                    <a href='https://yomireader.netlify.app' target="_blank" rel="noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPAU25wof8Zbvp4FnwH0VrlGFP1lSki1vJ-Q&usqp=CAU" alt='logo'/></a>
                 </ItemTop>
                 <ItemBottom>
                     <img src={Yomi} alt='yomi logo' style={{width: "100%"}}/>
