@@ -5,6 +5,7 @@ import Sim from '../../assets/videos/tokyo.mp4';
 import adzOS from '../../assets/images/adzOS.png';
 import githubDark from '../../assets/images/github-dark.png';
 import githubLight from '../../assets/images/github-light.png';
+import Yomi from '../../assets/images/mobile.png';
 
 interface Props {
     refProp: any;
@@ -53,12 +54,13 @@ const Projects = (props: Props): React.ReactElement => {
             </Project>
             <Project style={{background: "#fbfbfd"}}>
                 <ItemTop>
-                    <h2>Title</h2>
-                    <p>This project does this and that, its very good</p>
-                    <p style={{fontSize: 16, color:"rgb(64,200,224)"}}>#rust #webassembly #javascript</p>
-                    <a href='/' target="_blank"><img src={githubDark} alt='logo'/></a>
+                    <h2>Yomi</h2>
+                    <p>Manga reader app</p>
+                    <p style={{fontSize: 16, color:"rgb(64,200,224)"}}>#javascript #typescript #ios #android</p>
+                    <a href='https://yomireader.netlify.app' target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPAU25wof8Zbvp4FnwH0VrlGFP1lSki1vJ-Q&usqp=CAU" alt='logo'/></a>
                 </ItemTop>
                 <ItemBottom>
+                    <img src={Yomi} alt='yomi logo' style={{width: "100%"}}/>
                 </ItemBottom>
             </Project>
         </Container>
